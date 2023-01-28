@@ -456,5 +456,5 @@ $RECYCLE.BIN/
 **/node_modules
 *.db
 
-./RIArchitecture/RIArchitecture/obj
-./RIArchitecture/RIArchitecture/bin
+./RIArchitecture/RIArchitecture/obj/*
+./RIArchitecture/RIArchitecture/bin/*
