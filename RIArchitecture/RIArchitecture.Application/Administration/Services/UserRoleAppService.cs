@@ -68,7 +68,7 @@ namespace RIArchitecture.Application.Administration.Services
                 return false;
 
             //await _signInManager.RefreshSignInAsync(user);
-            await PrismMasonUserSeeder.SeedSuperAdminAsync(_userManager, _roleManager);
+            await RIArchitectureUserSeeder.SeedSuperAdminAsync(_userManager, _roleManager);
             return true;
         }
     }

@@ -29,9 +29,9 @@ namespace RIArchitecture.Api
                     var services = scope.ServiceProvider;
                     var userManager = services.GetRequiredService<UserManager<AppUser>>();
                     var roleManager = services.GetRequiredService<RoleManager<IdentityRole<Guid>>>();
-                    await PrismMasonRoleSeeder.SeedAsync(userManager, roleManager);
-                    await PrismMasonUserSeeder.SeedBasicUserAsync(userManager, roleManager);
-                    await PrismMasonUserSeeder.SeedSuperAdminAsync(userManager, roleManager);
+                    await RIArchitectureRoleSeeder.SeedAsync(userManager, roleManager);
+                    await RIArchitectureUserSeeder.SeedBasicUserAsync(userManager, roleManager);
+                    await RIArchitectureUserSeeder.SeedSuperAdminAsync(userManager, roleManager);
                     Log.Information("Finished Seeding Default Data");
                 }
                 Log.Information("Starting Web Host");

@@ -9,6 +9,7 @@
 *.user
 *.userosscache
 *.sln.docstates
+*.vs
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -31,6 +32,8 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
+*[Bb]in/
+*[Oo]bl/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -458,4 +461,7 @@ $RECYCLE.BIN/
 
 **/bin/Debug/
 **/bin/Release/
+**/bin
 **/obj
+**.dll
+**.pdb
