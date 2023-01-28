@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="ClosedXML" Version="0.95.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RIArchitecture.Application.Contract\RIArchitecture.Application.Contracts.csproj" />
+    <ProjectReference Include="..\RIArchitecture.Infrastructure\RIArchitecture.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

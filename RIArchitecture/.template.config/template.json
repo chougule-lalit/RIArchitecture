@@ -1,0 +1,25 @@
+{
+    "author": "Lalit Chougule",
+    "name": "DDD Web API template",
+    "description": "Project template to create web API with DDD architecture from ri.io",
+    "identity": "ri-web-api-1.0.0",
+    "shortName": "ri-web-api",
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    },
+    "sourceName": "RIArchitecture",
+    "symbols": {
+      "Framework": {
+        "type": "parameter",
+        "description": "The target framework for the project.",
+        "datatype": "choice",
+        "choices": [
+          {
+            "choice": "net5.0"
+          }
+        ],
+        "defaultValue": "net5.0"
+      }
+    }
+  }

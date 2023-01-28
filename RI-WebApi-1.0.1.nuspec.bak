@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>RI-WebAPI</id>
+    <version>1.0.1</version>
+    <description>
+      Project template for creating a .NET Core web api using DDD Architecture from ri.io
+    </description>
+    <authors>Lalit Dinkar Chougule</authors>
+<license type="expression">MIT</license>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+  <files>
+    <file src=".\Revaur\**\*.*" exclude=".\Revaur\**\bin\**\*.*;.\Revaur\**\obj\**\*.*;" target="Revaur" />
+  </files>  
+</package>
